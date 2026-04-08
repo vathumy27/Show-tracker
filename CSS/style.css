@@ -1,0 +1,391 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+body {
+  background: #e9edf2;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f9fa;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.logo {
+  background: #f4c542;
+  padding: 6px 12px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+
+nav a {
+  margin: 0 10px;
+  margin-right: 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #555;
+}
+
+
+.auth a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.auth-links a {
+  margin-left: 10px;
+  padding: 6px 12px;
+  border: 1px dashed #ccc;
+  text-decoration: none;
+  color: #555;
+}
+
+.auth-links .active {
+  border-style: solid;
+}
+
+
+
+
+.container {
+  width: 80%;
+  margin: 40px auto;
+}
+
+
+.container.add-page {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+
+.container.auth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+
+
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+.card.add-card {
+  width: 60%;
+  border-radius: 3px;
+}
+
+
+.card.login-card {
+  width: 300px;
+  text-align: center;
+  padding: 30px;
+}
+
+
+.card.signup-card {
+  width: 320px;
+  text-align: center;
+}
+
+
+.card h2 {
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.card label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.card input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+
+
+
+.card button {
+  background: #3b5998;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: #3b5998;
+}
+
+
+.btn-primary {
+  width: 100%;
+  padding: 10px;
+  background: #134713;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+.signup-card .btn-primary {
+  background: #5b8fdc;
+}
+
+.btn-facebook {
+  width: 100%;
+  padding: 10px;
+  background: #3b5998;
+  color: white;
+  border: none;
+  margin-top: 10px;
+}
+
+.btn-google {
+  width: 100%;
+  padding: 10px;
+  background: #dd4b39;
+  color: white;
+  border: none;
+  margin-top: 10px;
+}
+
+.btn-outline {
+  border: 1px dashed #ccc;
+}
+
+
+.link {
+  font-size: 12px;
+  color: #777;
+  margin: 8px 0;
+}
+
+.link span {
+  color: #000;
+  cursor: pointer;
+}
+
+.bottom-text {
+  font-size: 12px;
+  color: #777;
+  margin-top: 12px;
+}
+
+.bottom-text span {
+  color: #000;
+  cursor: pointer;
+}
+
+.terms {
+  font-size: 11px;
+  color: #777;
+  margin: 10px 0;
+}
+
+.terms span {
+  color: #000;
+  cursor: pointer;
+}
+
+.divider {
+  margin: 10px 0;
+  font-size: 12px;
+  color: #aaa;
+}
+
+
+.show-card {
+  display: flex;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.show-card img {
+  width: 180px;
+  height: 260px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.show-info {
+  flex: 1;
+}
+
+.title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rating {
+  color: red;
+  font-weight: bold;
+}
+
+.schedule {
+  margin: 10px 0;
+  color: #555;
+}
+
+.description {
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.subscribe-btn {
+  background: #4da3ff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.info-box {
+  background: #d9edf7;
+  padding: 10px;
+  margin: 15px 0;
+  color: #31708f;
+}
+
+
+.episodes {
+  background: white;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.episodes h3 {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.episode {
+  border-top: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.episode h4 {
+  margin-bottom: 5px;
+}
+
+.meta {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+
+.alphabet {
+  text-align: center;
+  padding: 15px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.alphabet span {
+  margin: 5px;
+  cursor: pointer;
+  color: #555;
+}
+
+.categories {
+  text-align: center;
+  padding: 10px;
+  background: #fafafa;
+}
+
+.categories button {
+  margin: 5px;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.header-row input {
+  padding: 6px;
+  border: 1px solid #ccc;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  gap: 20px;
+  justify-content: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card h3 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #777;
+}
+
