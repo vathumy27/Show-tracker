@@ -5,6 +5,7 @@
     <title>ShowTrackr Login</title>
     <link rel="stylesheet" href="CSS/style.css" />
   </head>
+
   <body>
     <div class="navbar">
       <div class="left">
@@ -15,6 +16,7 @@
           <li><a href="add.html">Add</a></li>
         </ul>
       </div>
+
       <div class="auth-links">
         <a href="login.html" class="btn-outline">Login</a>
         <a href="Signup .html">Sign up</a>
@@ -25,13 +27,15 @@
       <div class="card login-card">
         <h2>Log in</h2>
 
-        <input type="email" placeholder="Email" />
-        <input type="password" placeholder="Password" />
+        <input type="email" id="email" placeholder="Email" />
+        <input type="password" id="password" placeholder="Password" />
 
-        <button class="btn-primary">Log in</button>
+        <button class="btn-primary" id="loginBtn">Log in</button>
 
         <p class="link">Forgot your password?</p>
-        <p class="link">Don't have an account? <span>Sign up</span></p>
+        <p class="link">
+          Don't have an account? <span id="signupLink">Sign up</span>
+        </p>
 
         <div class="divider">or</div>
 
@@ -39,5 +43,7 @@
         <button class="btn-google">Sign in with Google</button>
       </div>
     </div>
+    <script src="JS/data.js"></script>
+    <script src="JS/login.js"></script>
   </body>
 </html>
