@@ -75,7 +75,6 @@ nav a {
 
 
 
-
 .container {
   width: 80%;
   margin: 40px auto;
@@ -170,7 +169,7 @@ nav a {
 .btn-primary {
   width: 100%;
   padding: 10px;
-  background: #134713;
+  background: #5cb85c;
   color: white;
   border: none;
   margin-top: 10px;
@@ -389,3 +388,9 @@ nav a {
   color: #777;
 }
 
+.error {
+  color: red;
+  font-size: 12px;
+  display: block;
+  margin-bottom: 8px;
+}
