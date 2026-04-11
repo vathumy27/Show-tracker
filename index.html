@@ -5,6 +5,7 @@
     <title>ShowTrackr</title>
     <link rel="stylesheet" href="CSS/style.css" />
   </head>
+
   <body>
     <header class="navbar">
       <div class="left">
@@ -22,41 +23,46 @@
       </div>
     </header>
 
+   
     <section class="alphabet">
-      <span>0-9</span>
-      <span>A</span><span>B</span><span>C</span><span>D</span> <span>E</span
-      ><span>F</span><span>G</span><span>H</span> <span>I</span><span>J</span
-      ><span>K</span><span>L</span> <span>M</span><span>N</span><span>O</span
-      ><span>P</span> <span>Q</span><span>R</span><span>S</span><span>T</span>
-      <span>U</span><span>V</span><span>W</span><span>X</span> <span>Y</span
-      ><span>Z</span>
+      <span data-letter="ALL">All</span>
+      <span data-letter="0-9">0-9</span>
+      <span data-letter="A">A</span><span data-letter="B">B</span
+      ><span data-letter="C">C</span><span data-letter="D">D</span>
+      <span data-letter="E">E</span><span data-letter="F">F</span
+      ><span data-letter="G">G</span><span data-letter="H">H</span>
+      <span data-letter="I">I</span><span data-letter="J">J</span
+      ><span data-letter="K">K</span><span data-letter="L">L</span>
+      <span data-letter="M">M</span><span data-letter="N">N</span
+      ><span data-letter="O">O</span><span data-letter="P">P</span>
+      <span data-letter="Q">Q</span><span data-letter="R">R</span
+      ><span data-letter="S">S</span><span data-letter="T">T</span>
+      <span data-letter="U">U</span><span data-letter="V">V</span
+      ><span data-letter="W">W</span><span data-letter="X">X</span>
+      <span data-letter="Y">Y</span><span data-letter="Z">Z</span>
     </section>
 
+    
     <section class="categories">
-      <button>Action</button>
-      <button>Adventure</button>
-      <button>Animation</button>
-      <button>children</button>
-      <button>Comedy</button>
-      <button>crime</button>
-      <button>Documentary</button>
-      <button>Drama</button>
-      <button>Family</button>
-      <button>Fantasy</button>
-      <button>fond</button>
-      <button>Home and Garden</button>
-      <button>Horror</button>
-      <button>Mini series</button>
-      <button>Mystary</button>
-      <button>News</button>
-      <button>Reality</button>
-      <button>Romance</button>
-      <button>Soft</button>
-      <button>Sport</button>
-      <button>Suspense</button>
-      <button>Talk Show</button>
-      <button>Inliller</button>
-      <button>Travel</button>
+      <button data-genre="ALL">All</button>
+      <button data-genre="Action">Action</button>
+      <button data-genre="Adventure">Adventure</button>
+      <button data-genre="Animation">Animation</button>
+      <button data-genre="Children">Children</button>
+      <button data-genre="Comedy">Comedy</button>
+      <button data-genre="Crime">Crime</button>
+      <button data-genre="Documentary">Documentary</button>
+      <button data-genre="Drama">Drama</button>
+      <button data-genre="Family">Family</button>
+      <button data-genre="Fantasy">Fantasy</button>
+      <button data-genre="Horror">Horror</button>
+      <button data-genre="Mystery">Mystery</button>
+      <button data-genre="Reality">Reality</button>
+      <button data-genre="Romance">Romance</button>
+      <button data-genre="Sport">Sport</button>
+      <button data-genre="Suspense">Suspense</button>
+      <button data-genre="Talk Show">Talk Show</button>
+      <button data-genre="Travel">Travel</button>
     </section>
 
     <main class="container">
@@ -65,35 +71,10 @@
         <input type="text" placeholder="Search..." />
       </div>
 
-      <div class="grid">
-        <div class="card">
-          <a href="detail.html">
-            <img src="assets/images/Game of thrones .jpg"
-          /></a>
-          <h3>Game of Thrones</h3>
-          <p>Episodes: 84</p>
-        </div>
-
-        <div class="card">
-          <img src="assets/images/Breaking bad.jpeg" />
-          <h3>Breaking Bad</h3>
-          <p>Episodes: 79</p>
-        </div>
-
-        <div class="card">
-          <img
-            src="assets/images/Dexter.jpg"
-          />
-          <h3>Dexter</h3>
-          <p>Episodes: 125</p>
-        </div>
-
-        <div class="card">
-          <img src="assets/images/How i met my mother.webp" />
-          <h3>How I Met Your Mother</h3>
-          <p>Episodes: 219</p>
-        </div>
-      </div>
+      <div class="grid"></div>
     </main>
+
+    <script src="JS/data.js"></script>
+    <script src="JS/home.js"></script>
   </body>
 </html>
